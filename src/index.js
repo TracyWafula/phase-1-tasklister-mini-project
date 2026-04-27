@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
     const usersToDo = document.querySelector("#new-task-description").value
     buildToDo(usersToDo)
+    form.reset();
   
   
   });
